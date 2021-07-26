@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+
+input {
+    background-color: white;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12pt;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 8px;
+    width: 250px;
+    outline: none;
+}
+
+button {
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 100px;
+    background: black;
+    color: white;
+    border-radius: 7px;
+    font-size: large;
+    border: none;
+    padding: 10px;    
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0;
+}
+
+.landing {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.landing__sign-in {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.landing__log-in {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.landing__log-in__email__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing__sign-in__new-account__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing__sign-in__accounts{
+    display: flex;
+    justify-content: center;
+}
+
+.landing__log-in__accounts__links {
+    display: flex;
+    justify-content: center;
+}
+
+.landing__sign-in__new-account__form__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing__log-in__email__form__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0;
+}
+
+footer img {
+    width: 200px;
+    margin: 0;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(237, 237, 237);
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(138, 138, 138);
+}
